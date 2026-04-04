@@ -21,7 +21,7 @@ cask "okand-mpv-app" do
   url "https://github.com/mpv-player/mpv/releases/download/v#{version}/mpv-v#{version}-macos-#{MacOS.version}-#{arch}.zip",
       verified: "github.com/mpv-player/mpv/releases/download/"
   name "mpv macOS .app-bundle"
-  desc "Media player based on MPlayer and mplayer2"
+  desc "Media player based on MPlayer and mplayer2, macOS .app-bundle downloaded from the official repo"
   homepage "https://mpv.io/"
 
   # Documentation: https://docs.brew.sh/Brew-Livecheck
@@ -34,6 +34,8 @@ cask "okand-mpv-app" do
   depends_on macos: ">= :sonoma"
 
   app "mpv.app"
+
+  caveats "You have to remove the gatekeeper quarantine flag yourself"
 
   # Documentation: https://docs.brew.sh/Cask-Cookbook#stanza-zap
   zap trash: [
