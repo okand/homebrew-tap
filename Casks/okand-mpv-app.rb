@@ -10,7 +10,7 @@ cask "okand-mpv-app" do
   end
   on_sequoia do
     version "0.41.0"
-    sha256 arm:   "41003617ab4f7784394b5ddea7ce51b3e0838e8cfc8166ad1a378b2eda3b583c",
+    sha256 arm:   "489cf6a54f57c54f86ad8d7cedaf5bb26848770d58dc059021214e2f689ee799",
            intel: "41003617ab4f7784394b5ddea7ce51b3e0838e8cfc8166ad1a378b2eda3b583c"
   end
   on_tahoe do
