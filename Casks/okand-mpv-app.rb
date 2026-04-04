@@ -3,7 +3,7 @@
 # PLEASE REMOVE ALL GENERATED COMMENTS BEFORE SUBMITTING YOUR PULL REQUEST!
 cask "okand-mpv-app" do
   arch arm: "arm", intel: "intel"
-  
+
   on_sonoma do
     version "0.41.0"
     sha256 arm: "5c96f9b21355fc0a11d2e2161ad65f33031070e9fb3f6bd9865fb459b94587e6"
@@ -17,7 +17,7 @@ cask "okand-mpv-app" do
     version "0.41.0"
     sha256 arm: "09820c0d84f6687446b84eb9df81fcf6a26ebe869cee58ea1857d7948cfb7c71"
   end
-  
+
   url "https://github.com/mpv-player/mpv/releases/download/v#{version}/mpv-v#{version}-macos-#{MacOS.version}-#{arch}.zip",
       verified: "github.com/mpv-player/mpv/releases/download/"
   name "mpv macOS .app-bundle"
@@ -30,8 +30,7 @@ cask "okand-mpv-app" do
     strategy :github_latest
   end
 
-  conflicts_with cask: "stolendata-mpv", because: "both install `mpv.app` bundles"
-
+  conflicts_with cask: "stolendata-mpv"
   depends_on macos: ">= :sonoma"
 
   app "mpv.app"
