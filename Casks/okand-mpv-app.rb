@@ -23,7 +23,6 @@ cask "okand-mpv-app" do
   name "mpv macOS .app-bundle"
   desc "Media player based on MPlayer and mplayer2, macOS .app-bundle downloaded from the official repo"
   homepage "https://mpv.io/"
-  license "LGPL-2.1-or-later"
 
   # Documentation: https://docs.brew.sh/Brew-Livecheck
   livecheck do
@@ -36,7 +35,10 @@ cask "okand-mpv-app" do
 
   app "mpv.app"
 
-  caveats "You have to remove the gatekeeper quarantine flag yourself"
+  caveats <<~EOS
+  You have to remove the gatekeeper quarantine flag yourself
+  mpv license: https://github.com/mpv-player/mpv/blob/master/Copyright
+  EOS
 
   # Documentation: https://docs.brew.sh/Cask-Cookbook#stanza-zap
   zap trash: [
