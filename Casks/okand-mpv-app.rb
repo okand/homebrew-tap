@@ -1,7 +1,7 @@
 # Documentation: https://docs.brew.sh/Cask-Cookbook
 #                https://docs.brew.sh/Adding-Software-to-Homebrew#cask-stanzas
 # PLEASE REMOVE ALL GENERATED COMMENTS BEFORE SUBMITTING YOUR PULL REQUEST!
-cask "mpv-app" do
+cask "okand-mpv-app" do
   arch arm: "arm", intel: "intel"
   
   on_sonoma do
