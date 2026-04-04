@@ -23,6 +23,7 @@ cask "okand-mpv-app" do
   name "mpv macOS .app-bundle"
   desc "Media player based on MPlayer and mplayer2, macOS .app-bundle downloaded from the official repo"
   homepage "https://mpv.io/"
+  license "LGPL-2.1-or-later"
 
   # Documentation: https://docs.brew.sh/Brew-Livecheck
   livecheck do
