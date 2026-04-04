@@ -1,7 +1,7 @@
 # homebrew-tap
 
 ## okand-mpv-app
-Custom homebrew tap to download and place the macOS mpv.app bundle they started providing with the release of version 0.41.0. Only tested on Tahoe (26) on ARM but I think the `on_version` sections should work.
+Custom homebrew tap to download and place the macOS mpv.app bundle they started providing with the release of version 0.41.0. Only tested on Tahoe (26) and Sequoia (15) on ARM but I think the `on_version` sections should work for the intel build too.
 
 `brew install okand/homebrew-tap/okand-mpv-app`
 
