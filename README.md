@@ -5,7 +5,7 @@ Custom homebrew tap to download and place the macOS mpv.app bundle they started 
 
 `brew install okand/homebrew-tap/okand-mpv-app`
 
-You need to remove the gatekeeper quarantine flag youself after installing. This is regarded as unsafe and not allowed to happen in official homebrew taps anymore. Please be aware of what you are doing here.
+You need to remove the gatekeeper quarantine flag youself after installing. This is regarded as unsafe and not allowed to happen in official homebrew taps anymore. Please be aware of what you are doing here. You also probably need to do this again after each version update.
 
 It can be done with the following command:
 
