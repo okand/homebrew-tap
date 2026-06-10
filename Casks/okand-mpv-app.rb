@@ -31,7 +31,7 @@ cask "okand-mpv-app" do
   end
 
   conflicts_with cask: "stolendata-mpv"
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "mpv.app"
 
