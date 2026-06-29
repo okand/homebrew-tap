@@ -16,3 +16,7 @@ It can be done with the following command:
 `-d` means that we want to delete an attribute. In this case `com.apple.quarantine`.
 
 And finally `/Applications/mpv.app` is the path to the object we want to operate on.
+
+
+## okand-xune
+No notes, just install and launch it.
