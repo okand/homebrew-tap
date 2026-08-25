@@ -4,9 +4,9 @@
 cask "okand-xune" do
   arch arm: "arm64", intel: "x64"
 
-  version "0.2.1.1"
-  sha256 arm:   "67c0b1bdacff3acbf45fa5ccc7e9f919e3ffdfc9dee1367b4929bef6e20e0822",
-         intel: "b28f754595004ad0fe1641a078bdda42cfb025844107ba4ae278280eeba1dc5a"
+  version "0.3.1"
+  sha256 arm:   "fe52a7add4b1d9a97864c1e199363e15b2bdaaa0e4755082dbc590fb9f8f2d18",
+         intel: "fbb4e25b9a71507491a2e7bc4a65c47b8e38c292017b510156a1c994f3ceb15a"
 
   url "https://github.com/xune-software/xune-releases/releases/download/v#{version}/Xune-#{version}-macOS-#{arch}.dmg",
       verified: "github.com/xune-software/xune-releases/releases/download/"
