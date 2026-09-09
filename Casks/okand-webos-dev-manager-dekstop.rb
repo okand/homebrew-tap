@@ -4,7 +4,7 @@
 cask "okand-webos-dev-manager-desktop" do
 
   version "1.99.20"
-  sha256: "e4a85cbf0922e0832d9f7bef0c130c914979ac499124e367b23960f9595e8f0d"
+  sha256 "e4a85cbf0922e0832d9f7bef0c130c914979ac499124e367b23960f9595e8f0d"
 
   url "https://github.com/webosbrew/dev-manager-desktop/releases/download/v#{version}/webOS.Dev.Manager_#{version}_universal.dmg"
       verified: "github.com/webosbrew/dev-manager-desktop/releases/download/"
