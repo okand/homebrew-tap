@@ -18,8 +18,7 @@ cask "okand-mpv-app" do
     sha256 arm: "09820c0d84f6687446b84eb9df81fcf6a26ebe869cee58ea1857d7948cfb7c71"
   end
 
-  url "https://github.com/mpv-player/mpv/releases/download/v#{version}/mpv-v#{version}-macos-#{MacOS.version}-#{arch}.zip",
-      verified: "github.com/mpv-player/mpv/releases/download/"
+  url "https://github.com/mpv-player/mpv/releases/download/v#{version}/mpv-v#{version}-macos-#{MacOS.version}-#{arch}.zip"
   name "mpv macOS .app-bundle"
   desc "Media player based on MPlayer and mplayer2, macOS .app-bundle downloaded from the official repo"
   homepage "https://mpv.io/"
