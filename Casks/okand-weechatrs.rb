@@ -3,8 +3,8 @@
 # PLEASE REMOVE ALL GENERATED COMMENTS BEFORE SUBMITTING YOUR PULL REQUEST!
 cask "okand-weechatrs" do
 
-  version "0.5.0"
-  sha256 "06e620adfd002a9807685d3aa01bd299a04985de411d9e9474d6180908ca26e8"
+  version "0.8.1"
+  sha256 "25f15bd186056f4f7dfe5eb02c05783af295f81de2be7c02d775615612cc45aa"
 
   url "https://github.com/rnocx/WeeChatRS/releases/download/v0.5.0/WeeChatRS-#{version}-macos-universal.dmg"
   name "WeeChatRS"
