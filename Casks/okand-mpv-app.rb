@@ -9,13 +9,17 @@ cask "okand-mpv-app" do
     sha256 arm: "5c96f9b21355fc0a11d2e2161ad65f33031070e9fb3f6bd9865fb459b94587e6"
   end
   on_sequoia do
-    version "0.41.0"
-    sha256 arm:   "489cf6a54f57c54f86ad8d7cedaf5bb26848770d58dc059021214e2f689ee799",
-           intel: "41003617ab4f7784394b5ddea7ce51b3e0838e8cfc8166ad1a378b2eda3b583c"
+    version "0.42.0"
+    sha256 arm:   "be1b8d2445e6880860869c080b8710dee189721f1fa4689840db6a2c10d7be69",
+           intel: "2d2f34350ff844b6014c35f21ca142937275e19c0c673150a8564fcd2f3bfa14"
   end
   on_tahoe do
-    version "0.41.0"
-    sha256 arm: "09820c0d84f6687446b84eb9df81fcf6a26ebe869cee58ea1857d7948cfb7c71"
+    version "0.42.0"
+    sha256 arm: "81bffbda01d69eec566ee3f576a2d0089447ba4b21dece3954f08109d5435ce1"
+  end
+  on_golden_gate do
+    version "0.42.0"
+    sha256 arm: "87c7af5d908eb85217899b57d9a24cc9f5316daa93bb6b4a494a34cea25330b7"
   end
 
   url "https://github.com/mpv-player/mpv/releases/download/v#{version}/mpv-v#{version}-macos-#{MacOS.version}-#{arch}.zip"
