@@ -3,6 +3,7 @@
 # PLEASE REMOVE ALL GENERATED COMMENTS BEFORE SUBMITTING YOUR PULL REQUEST!
 cask "okand-xune" do
   arch arm: "arm64", intel: "x64"
+  depends_on :macos
 
   version "0.3.1"
   sha256 arm:   "fe52a7add4b1d9a97864c1e199363e15b2bdaaa0e4755082dbc590fb9f8f2d18",
